@@ -5,6 +5,125 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  margin: 0px;
+  
+}
+
+.container {
+  height: 50vh;
+  width: 100vw;
+  position: relative;
+}
+
+.blue-box {
+  height: 350px;
+  background-color:#3c698f;
+}
+
+
+
+.content-box {
+  
+  position: absolute;
+  height: 75vh;
+  width: 80vw;
+  left: 25%;
+  top: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.image-container {
+  margin-right: 50px;
+}
+
+.button-login {
+  background-color: #467aa5;
+  color: white;
+  padding: 6px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  font-size: bold;
+  margin: 4px 2px;
+  border-radius: 3px;
+}
+
+.button-login img {
+  padding-right: 8px;
+}
+
+.content-header {
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 650px;
+  margin-top: 20px;
+}
+
+.content-header>img {
+  width: 300px;
+}
+
+.text-content {
+   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 15px;
+  margin-right: 650px; 
+  margin-top: 35px;
+}
+section{
+  background-image: url("../images/frame.png");
+ margin-left: -10px;
+}
+
+
+.text-content h4 {
+  
+  margin: 30px;
+  padding-top: 20px;
+  font-size: 1.5em;
+  color: #22435e;
+}
+.text-content p{
+ 
+  margin-right: 600px;
+  margin: 0 30px 30px 30px;
+}
+
+.text-content {
+  margin-left: 20px;
+}
+
+.text-content a {
+  margin: 10px;
+}
+
+.footer {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 30px;
+  margin-left: 630px;
+  margin-bottom: 180px;
+}
+
+.footer a {
+  margin: 10px;
+  text-decoration: none;
+  color: #1c5380;
+  font-weight: bold;
+  font-size: 10PX;
+}
+
+.footer span {
+  margin: 10px;
+  text-decoration: none;
+  font-size: 10PX;
+  color: rgb(192,192,192);
+
 }
